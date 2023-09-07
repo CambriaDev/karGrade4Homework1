@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cam.cambria.kg4h1.mapper.SiyingqiyeMapper">
+
+    <resultMap id="BaseResultMap" type="cam.cambria.kg4h1.entity.dao.Siyingqiye">
+        <result property="c1" column="C1" jdbcType="VARCHAR"/>
+        <result property="c2" column="C2" jdbcType="INTEGER"/>
+        <result property="c3" column="C3" jdbcType="INTEGER"/>
+        <result property="c4" column="C4" jdbcType="INTEGER"/>
+        <result property="c5" column="C5" jdbcType="INTEGER"/>
+        <result property="c6" column="C6" jdbcType="INTEGER"/>
+        <result property="c7" column="C7" jdbcType="INTEGER"/>
+        <result property="c8" column="C8" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        C1
+        ,C2,C3,
+        C4,C5,C6,
+        C7,C8
+    </sql>
+</mapper>

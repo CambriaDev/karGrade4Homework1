@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://kg4h1-mysql-db:3306/kg4h1?useSSL=false&serverTimezone=UTC%2B8&allowPublicKeyRetrieval=true
+    username: root
+    password: 131072
